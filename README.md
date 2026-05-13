@@ -134,8 +134,14 @@ The Caesar Cipher is a historically important but insecure encryption method and
 
 ## 🪪 Author
 
-> **Shakal Bhau**
+> **Developer: Shakal Bhau**
 
-> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
+> **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
