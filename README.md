@@ -12,9 +12,11 @@ It is created as a **learning and academic project** to understand how classical
 ```bash
 caesar-cipher-python/
 │
-├── app.py            # Caesar cipher implementation (CLI based)
-├── LICENSE           # Project license
-└── README.md         # Project documentation
+├── app.py            # Basic CLI version
+├── interactive.py    # Rich-powered CLI
+├── requirements.txt  # Dependencies
+├── LICENSE
+└── README.md
 ```
 
 ---
@@ -42,15 +44,31 @@ caesar-cipher-python/
 - Ideal for beginners in cryptography
 - No external dependencies
 
+### 🎨 Rich CLI (Interactive Mode)
+
+- Beautiful colored terminal UI using Rich
+- Structured panels for output display
+- Interactive prompts with validation
+- Enhanced user experience compared to standard CLI
+
 ---
 
 ## 🛠 Technologies Used
 
-| Technology             | Role                          |
-| ---------------------- | ----------------------------- |
-| **Python 3**           | Core programming language     |
-| **ord() / chr()**      | Character-to-ASCII conversion |
-| **Modular Arithmetic** | Circular alphabet shifting    |
+| **Technology**        | **Role**                        |
+|----------------------|----------------------------------|
+| **Python 3**         | Core programming language        |
+| **ord() / chr()**    | Character-to-ASCII conversion    |
+| **Modular Arithmetic** | Circular alphabet shifting     |
+| **Rich**             | Styled CLI, colors, panels       |
+
+
+---
+
+### ⚡ Dual Mode Support
+
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
 
 ---
 
@@ -78,12 +96,33 @@ git clone https://github.com/ShakalBhau0001/caesar-cipher-python.git
 cd caesar-cipher-python
 ```
 
-### 3️⃣ Run the program
+### 4️⃣ Install Dependencies
+
+```bash
+pip install rich
+```
+
+**OR**
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5️⃣ Running the Project
+
+#### Basic CLI Version
+
 ```bash
 python app.py
 ```
 
-### 4️⃣ Follow the prompts
+#### Rich Interactive Version
+
+```bash
+python interactive.py
+```
+
+### 6️⃣ Follow the prompts for Basic CLI Version
 - Enter a message
 - Enter a shift key (integer)
 - Choose direction:
@@ -129,6 +168,12 @@ Decrypted Message: HELLO
 
 This implementation is created **for educational and learning purposes only.**
 The Caesar Cipher is a historically important but insecure encryption method and must not be used to protect real-world sensitive data.
+
+---
+
+## 📸 Preview
+
+![Rich CLI Preview](assets/screenshot.png)
 
 ---
 
