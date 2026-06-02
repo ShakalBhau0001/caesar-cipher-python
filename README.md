@@ -1,4 +1,4 @@
-## 🔐 Caesar Cipher Implementation (Python)
+ ## 🔐 Caesar Cipher Implementation (Python)
 
 A simple and educational **Python implementation of the Caesar Cipher encryption algorithm.**
 This project demonstrates **left and right shifting encryption and decryption** using basic character manipulation and modular arithmetic.
@@ -51,6 +51,11 @@ caesar-cipher-python/
 - Interactive prompts with validation
 - Enhanced user experience compared to standard CLI
 
+### ⚡ Dual Mode Support
+
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
+
 ---
 
 ## 🛠 Technologies Used
@@ -62,13 +67,6 @@ caesar-cipher-python/
 | **Modular Arithmetic** | Circular alphabet shifting     |
 | **Rich**             | Styled CLI, colors, panels       |
 
-
----
-
-### ⚡ Dual Mode Support
-
-- 🧼 Basic CLI → Lightweight, no dependencies
-- 🎨 Rich CLI → Enhanced UI with colors and panels
 
 ---
 
