@@ -94,7 +94,7 @@ git clone https://github.com/ShakalBhau0001/caesar-cipher-python.git
 cd caesar-cipher-python
 ```
 
-### 4️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install rich
@@ -106,7 +106,7 @@ pip install rich
 pip install -r requirements.txt
 ```
 
-### 5️⃣ Running the Project
+### 4️⃣ Running the Project
 
 #### Basic CLI Version
 
@@ -120,7 +120,7 @@ python app.py
 python interactive.py
 ```
 
-### 6️⃣ Follow the prompts for Basic CLI Version
+### 5️⃣ Follow the prompts for Basic CLI Version
 - Enter a message
 - Enter a shift key (integer)
 - Choose direction:
