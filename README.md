@@ -171,7 +171,7 @@ The Caesar Cipher is a historically important but insecure encryption method and
 
 ## 📸 Preview
 
-![Rich CLI Preview](assets/screenshot.png)
+![Rich CLI Preview](assets/Caesar.png)
 
 ---
 
