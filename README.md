@@ -12,6 +12,7 @@ It is created as a **learning and academic project** to understand how classical
 ```bash
 caesar-cipher-python/
 │
+├── assets/           # Screenshots
 ├── app.py            # Basic CLI version
 ├── interactive.py    # Rich-powered CLI
 ├── requirements.txt  # Dependencies
